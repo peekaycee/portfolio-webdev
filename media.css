@@ -1,0 +1,23 @@
+@media only screen and (max-width: 640px) {
+     header .search {display: none;}
+     header .logo {padding: 15px 0px;}
+     div.footer-logo img {display: none;}
+    .footer-container {padding: 0 40px; display: block;} 
+    .category-1 {width: 100%; margin-bottom: 40px;}
+    .about-us {padding: 0 40px; margin-top: -70px; text-align: justify;}
+    .media {padding: 15px 40px;}
+}
+@media only screen and (max-width: 920px) {
+    header {padding: 30px;}
+    div.footer-logo img {
+        position: absolute;
+        right: -140px;
+        top: 120px;
+    }
+    .footer-container {padding: 0 60px; display: block;}
+    .category-1 {width: 100%; margin-bottom: 40px;}
+    .about-us {padding: 0 60px; margin-top: -70px; text-align: justify;
+    
+    }
+    .media {padding: 15px 60px;}
+}
